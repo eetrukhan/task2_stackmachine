@@ -52,4 +52,15 @@ IOperation::Arity PlusOp::getArity() const
 // TODO: put StackMachine methods implementation here
 
 
+    void StackMachine::registerOperation(char symb, IOperation *oper) {
+
+    }
+
+    IOperation *StackMachine::getOperation(char symb) {
+        return nullptr;
+    }
+
+    int StackMachine::calculate(const std::string &expr, bool clearStack) {
+        return 0;
+    }
 } // namespace xi

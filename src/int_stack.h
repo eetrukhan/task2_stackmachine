@@ -38,7 +38,7 @@ public:
 
 public:
     // Constructors
-    IntStack(size_t sz = STACK_SIZE);           ///< Default constructor
+    IntStack(size_t sz = STACK_SIZE);           ///< Default constructor //explicit?
     ~IntStack();
 
 private:
